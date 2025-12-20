@@ -3,32 +3,32 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative h-[85vh] overflow-hidden bg-[#fbf6f7] m-0">
+    <section className="relative h-[70vh] overflow-hidden bg-[#fbf6f7] m-0 sm:h-[75vh] md:h-[85vh]">
       {/* subtle background glow */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute -left-40 -top-40 h-[520px] w-[520px] rounded-full bg-pink-200/30 blur-3xl" />
       </div>
 
-      <div className="relative mx-auto h-full max-w-7xl px-6">
+      <div className="relative mx-auto h-full max-w-7xl px-4 md:px-6">
         <div className="grid h-full items-center md:grid-cols-2">
           {/* Left stays in the container */}
-          <div className="relative z-10 max-w-xl">
-            <h1 className="font-serif text-3xl leading-tight text-neutral-900 md:text-5xl">
+          <div className="relative z-10 max-w-xl py-8 md:py-0">
+            <h1 className="font-serif text-2xl leading-tight text-neutral-900 sm:text-3xl md:text-5xl">
               INDULGE IN
               <br />
-              LUXURY NAIL AND WAX
+              LUXURY NAIL
               <br />
               TREATMENTS
             </h1>
 
-            <p className="mt-4 text-sm text-neutral-700">
+            <p className="mt-3 text-xs text-neutral-700 sm:text-sm md:mt-4">
               @ New York Nails by Quynh Pham
             </p>
 
-            <div className="mt-6">
+            <div className="mt-4 md:mt-6">
               <Link
                 href="/booking"
-                className="inline-flex items-center justify-center rounded bg-pink-200 px-5 py-2.5 text-xs font-medium tracking-wide text-neutral-900 shadow-sm transition hover:bg-pink-300"
+                className="inline-flex items-center justify-center rounded bg-pink-200 px-4 py-2 text-xs font-medium tracking-wide text-neutral-900 shadow-sm transition hover:bg-pink-300 md:px-5 md:py-2.5"
               >
                 VIEW SERVICES
               </Link>
