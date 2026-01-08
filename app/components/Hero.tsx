@@ -27,7 +27,7 @@ export default function Hero() {
 
             <div className="mt-4 md:mt-6">
               <Link
-                href="/booking"
+                href="/#services"
                 className="inline-flex items-center justify-center rounded bg-pink-200 px-4 py-2 text-xs font-medium tracking-wide text-neutral-900 shadow-sm transition hover:bg-pink-300 md:px-5 md:py-2.5"
               >
                 VIEW SERVICES

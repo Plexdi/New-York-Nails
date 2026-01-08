@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { BookNowButton } from "./BookNowButton";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,12 +24,9 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Appointment Button */}
-        <Link
-          href="/booking"
-          className="hidden md:inline-flex rounded-md border border-[#edb3ff] px-4 py-2 text-sm text-black hover:bg-[#edb3ff] hover:text-white transition"
-        >
-          Appointment
-        </Link>
+        <BookNowButton className="bg-white px-4 py-2 rounded-md border border-[#edb3ff] hover:bg-[#edb3ff] transition-all duration-300">
+          <span className="text-black hover:text-white">Appointments</span>
+        </BookNowButton>
 
         {/* Mobile Menu Button */}
         <button

@@ -1,0 +1,1 @@
+className="block mt-4 rounded-md border border-[#edb3ff] px-4 py-2 text-sm text-center text-black hover:bg-[#edb3ff] hover:text-white transition"
