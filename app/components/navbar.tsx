@@ -17,7 +17,7 @@ export default function Navbar() {
         {/* Desktop Navigation */}
         <div className="hidden md:flex gap-6 text-sm text-black">
           <Link href="/#home">Home</Link>
-          <Link href="/#service">Services</Link>
+          <Link href="/#services">Services</Link>
           <Link href="/#about">About</Link>
           <Link href="/#gallery">Gallery</Link>
           <Link href="/#contact">Contact</Link>
