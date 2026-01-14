@@ -53,7 +53,7 @@ export default function Footer() {
             <div className="flex items-center gap-4 text-neutral-700">
               {/* Replace hrefs with your real links */}
               <a
-                href="https://instagram.com/newyorknails_E17"
+                href="https://www.instagram.com/newyorknails_e17/"
                 target="_blank"
                 rel="noreferrer"
                 className="text-xs hover:text-neutral-900"
