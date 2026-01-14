@@ -8,5 +8,7 @@ export const BOOKING_LINKS = {
     gelManiPedi: process.env.NEXT_PUBLIC_BOOKING_GEL_MANI_PEDI,
     acrylicFullSet: process.env.NEXT_PUBLIC_BOOKING_ACRYLIC_FULL_SET,
     acrylicInfill: process.env.NEXT_PUBLIC_BOOKING_ACRYLIC_INFILL,
+    fingerNail: process.env.NEXT_PUBLIC_BOOKING_FINGER_NAIL,
+    toeNail: process.env.NEXT_PUBLIC_BOOKING_TOE_NAIL,
   } as const;
   

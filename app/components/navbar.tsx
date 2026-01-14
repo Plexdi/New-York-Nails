@@ -24,7 +24,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Appointment Button */}
-        <BookNowButton className="bg-white px-4 py-2 rounded-md border border-[#edb3ff] hover:bg-[#edb3ff] transition-all duration-300">
+        <BookNowButton target="_blank" className="bg-white px-4 py-2 rounded-md border border-[#edb3ff] hover:bg-[#edb3ff] transition-all duration-300">
           <span className="text-black hover:text-white">Appointments</span>
         </BookNowButton>
 

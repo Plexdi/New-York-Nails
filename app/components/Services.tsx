@@ -24,6 +24,9 @@ const services: Service[] = [
   // ACRYLIC
   { bookingKey: "acrylicFullSet", name: "Acrylics Full Set with Gel", priceFrom: "£30", tags: ["Acrylic", "Gel"] },
   { bookingKey: "acrylicInfill", name: "Acrylics Infill with Gel", priceFrom: "£28", tags: ["Acrylic", "Gel"] },
+
+  {bookingKey: "fingerNail", name: "Finger Nail", priceFrom: "£12", tags: ["polish change"]},
+  {bookingKey: "toeNail", name: "Toe Nail", priceFrom: "£15", tags: ["polish change"]}
 ];
 
 export default function ServicesPage() {
@@ -69,6 +72,7 @@ export default function ServicesPage() {
                   {url ? (
                     <a
                       href={url}
+                      target="_blank"
                       className="self-start inline-flex h-7 items-center justify-center rounded border border-pink-200 bg-white px-3 text-[10px] font-medium tracking-wide text-neutral-900 hover:bg-pink-50 sm:mt-1"
                     >
                       BOOK
