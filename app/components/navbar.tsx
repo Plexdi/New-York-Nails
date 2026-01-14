@@ -25,7 +25,7 @@ export default function Navbar() {
 
         {/* Desktop Appointment Button */}
         <BookNowButton target="_blank" className="bg-white px-4 py-2 rounded-md border border-[#edb3ff] hover:bg-[#edb3ff] transition-all duration-300">
-          <span className="text-black hover:text-white">Appointments</span>
+          <span className="text-black hover:text-white">Appointment</span>
         </BookNowButton>
 
         {/* Mobile Menu Button */}
@@ -52,7 +52,7 @@ export default function Navbar() {
               Home
             </Link>
             <Link 
-              href="/#service" 
+              href="/#services" 
               className="block py-2 text-sm text-black"
               onClick={() => setIsOpen(false)}
             >
@@ -79,13 +79,9 @@ export default function Navbar() {
             >
               Contact
             </Link>
-            <Link
-              href="/booking"
-              className="block mt-4 rounded-md border border-[#edb3ff] px-4 py-2 text-sm text-center text-black hover:bg-[#edb3ff] hover:text-white transition"
-              onClick={() => setIsOpen(false)}
-            >
-              Appointment
-            </Link>
+            <BookNowButton target="_blank" className="bg-white px-4 py-2 rounded-md border border-[#edb3ff] hover:bg-[#edb3ff] transition-all duration-300">
+              <span className="text-black hover:text-white">Appointment</span>
+            </BookNowButton>
           </div>
         </div>
       )}
