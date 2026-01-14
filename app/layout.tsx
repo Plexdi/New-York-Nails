@@ -34,6 +34,9 @@ const brandFont = localFont({
 export const metadata: Metadata = {
   title: "New York Nails",
   description: "New York Nails",
+  icons: {
+    icon: "public/favicon.ico"
+  }
 };
 
 export default function RootLayout({
