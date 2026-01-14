@@ -13,7 +13,7 @@ export default function Footer() {
               New York Nails
             </div>
             <p className="mt-2 max-w-xs text-xs leading-5 text-neutral-600">
-              Luxury nails & wax treatments. Book online or contact us for more
+              Luxury nails treatments. Book online or contact us for more
               information.
             </p>
           </div>
@@ -59,20 +59,6 @@ export default function Footer() {
                 className="text-xs hover:text-neutral-900"
               >
                 Instagram
-              </a>
-              <a
-                href="#"
-                className="text-xs hover:text-neutral-900"
-                aria-label="Facebook"
-              >
-                Facebook
-              </a>
-              <a
-                href="#"
-                className="text-xs hover:text-neutral-900"
-                aria-label="TikTok"
-              >
-                TikTok
               </a>
             </div>
           </div>
