@@ -6,7 +6,6 @@ import ServicesPage from "./components/Services";
 import ImageHero from "./components/ImageHero";
 import QuickContact from "./components/QuickContact";
 import FaqSection from "./components/FAQ";
-import ContactFormSection from "./components/Contact";
 import ImageStrip from "./components/ImageStrip";
 
 export default function Home() {
@@ -28,7 +27,6 @@ export default function Home() {
       />
       <QuickContact />
       <FaqSection />
-      <ContactFormSection />
       <ImageStrip 
       images={[
         {src: "/IMG_9989.png", alt: "Nails photo 1"},
