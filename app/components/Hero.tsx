@@ -22,7 +22,7 @@ export default function Hero() {
             </h1>
 
             <p className="mt-3 text-xs text-neutral-700 sm:text-sm md:mt-4">
-              @ New York Nails by Quynh Pham
+              @ New York Nails by Lily
             </p>
 
             <div className="mt-4 md:mt-6">

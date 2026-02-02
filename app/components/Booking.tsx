@@ -24,7 +24,7 @@ const BAND_H = "h-[320px]";
 export default function BookingSection({
   heading = "ELEGANCE\nREDEFINED:\nNAILS",
   subheading = "New York Nails",
-  body = "At New York Nail by Quynh, we offer luxurious nail treatments. Enjoy flawless nail designs, and expert care in a relaxing atmosphere.",
+  body = "At New York Nail by Lily, we offer luxurious nail treatments. Enjoy flawless nail designs, and expert care in a relaxing atmosphere.",
   ctaLabel = "BOOK AN APPOINTMENT",
   ctaHref = "https://quynhkf2g.setmore.com",
   slides,
