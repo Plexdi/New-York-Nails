@@ -9,9 +9,9 @@ type Service = {
 
 const services: Service[] = [
   // MANICURE
-  { bookingKey: "regularManicure", name: "Regular Manicure", priceFrom: "£15", tags: ["Manicure"] },
+  { bookingKey: "regularManicure", name: "Regular Manicure", priceFrom: "£18", tags: ["Manicure"] },
   { bookingKey: "gelManicure", name: "Gel Manicure", priceFrom: "£25", tags: ["Manicure", "Gel"] },
-  { bookingKey: "gelManicureRemoval", name: "Gel Manicure & Removal", priceFrom: "£28", tags: ["Manicure", "Gel"] },
+  { bookingKey: "gelManicureRemoval", name: "Gel Manicure & Removal", priceFrom: "£30", tags: ["Manicure", "Gel"] },
 
   // PEDICURE
   { bookingKey: "regularPedicure", name: "Regular Pedicure", priceFrom: "£25", tags: ["Pedicure"] },
@@ -19,11 +19,11 @@ const services: Service[] = [
 
   // COMBO
   { bookingKey: "gelManiPedi", name: "Gel Manicure & Pedicure", priceFrom: "£57", tags: ["Manicure", "Pedicure", "Gel"] },
-  { bookingKey: "RegularManiPediure", name: "Regular Manicure & Pedicure", priceFrom: "£40", tags: ["Manicure", "Pedicure"] },
+  { bookingKey: "RegularManiPediure", name: "Regular Manicure & Pedicure", priceFrom: "£43", tags: ["Manicure", "Pedicure"] },
 
   // ACRYLIC
   { bookingKey: "acrylicFullSet", name: "Acrylics Full Set with Gel", priceFrom: "£30", tags: ["Acrylic", "Gel"] },
-  { bookingKey: "acrylicInfill", name: "Acrylics Infill with Gel", priceFrom: "£28", tags: ["Acrylic", "Gel"] },
+  { bookingKey: "acrylicInfill", name: "Acrylics Infill with Gel", priceFrom: "£30", tags: ["Acrylic", "Gel"] },
 
   {bookingKey: "fingerNail", name: "Finger Nail", priceFrom: "£12", tags: ["polish change"]},
   {bookingKey: "toeNail", name: "Toe Nail", priceFrom: "£15", tags: ["polish change"]}
