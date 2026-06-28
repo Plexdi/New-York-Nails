@@ -18,7 +18,7 @@ const services: Service[] = [
   { bookingKey: "gelPedicure", name: "Gel Pedicure", priceFrom: "£32", tags: ["Pedicure", "Gel"] },
 
   // COMBO
-  { bookingKey: "gelManiPedi", name: "Gel Manicure & Pedicure", priceFrom: "£57", tags: ["Manicure", "Pedicure", "Gel"] },
+  { bookingKey: "gelManiPedi", name: "Gel Manicure & Pedicure", priceFrom: "£60", tags: ["Manicure", "Pedicure", "Gel"] },
   { bookingKey: "RegularManiPediure", name: "Regular Manicure & Pedicure", priceFrom: "£43", tags: ["Manicure", "Pedicure"] },
 
   // ACRYLIC
