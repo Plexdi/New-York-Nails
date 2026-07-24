@@ -15,14 +15,14 @@ const services: Service[] = [
 
   // PEDICURE
   { bookingKey: "regularPedicure", name: "Regular Pedicure", priceFrom: "£25", tags: ["Pedicure"] },
-  { bookingKey: "gelPedicure", name: "Gel Pedicure", priceFrom: "£32", tags: ["Pedicure", "Gel"] },
+  { bookingKey: "gelPedicure", name: "Gel Pedicure", priceFrom: "35", tags: ["Pedicure", "Gel"] },
 
   // COMBO
   { bookingKey: "gelManiPedi", name: "Gel Manicure & Pedicure", priceFrom: "£60", tags: ["Manicure", "Pedicure", "Gel"] },
   { bookingKey: "RegularManiPediure", name: "Regular Manicure & Pedicure", priceFrom: "£43", tags: ["Manicure", "Pedicure"] },
 
   // ACRYLIC
-  { bookingKey: "acrylicFullSet", name: "Acrylics Full Set with Gel", priceFrom: "£30", tags: ["Acrylic", "Gel"] },
+  { bookingKey: "acrylicFullSet", name: "Acrylics Full Set with Gel", priceFrom: "£32", tags: ["Acrylic", "Gel"] },
   { bookingKey: "acrylicInfill", name: "Acrylics Infill with Gel", priceFrom: "£30", tags: ["Acrylic", "Gel"] },
 
   {bookingKey: "fingerNail", name: "Finger Nail", priceFrom: "£12", tags: ["polish change"]},
